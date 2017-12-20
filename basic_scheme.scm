@@ -177,7 +177,7 @@
 
   
 
-; a basic functional dictionary
+; a basic functional dictionary (not efficient.)
 
 (define (make-dictionary)
   
@@ -208,7 +208,6 @@
     dic_funcs ; the dictionary returns a reference for the dic_funcs function
     
     )
-  S
   (dictionary '()) ;create an empty dictionary
   )
 
